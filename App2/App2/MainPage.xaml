@@ -40,7 +40,7 @@
                 <ViewCell.View>
                     <StackLayout Orientation="Horizontal">
                             
-                                        <Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
+                            <Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
                             <Label Text="    -    " VerticalTextAlignment="Center"></Label>
                             <Label Text="{Binding Preco}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
                                     
