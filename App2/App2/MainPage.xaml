@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage">
+
+    <?StackLayout - tem a função de empilhar as labels uma encima da outra, no caso se não colocarmos     
+    só ira mostrar a ultima label.
+    
+    Grid - para fazer tabelas.
+    Grid.ColumnDefinitions - para definir quantas colunas.
+       Grid.ColumnDefinitions
+            ColumnDefinition ColumnDefinition
+            ColumnDefinition ColumnDefinition
+         Grid.ColumnDefinitions
+    como aqui 2 colunas.
+    
+    Grid.RowsDefinition - para definir quantas linhas.
+    Grid.RowDefinitions
+                RowDefinition RowDefinition
+                RowDefinition RowDefinition
+                RowDefinition RowDefinition
+            Grid.RowDefinitions
+    3 linhas.
+
+     em cada laibel tem que colocar quem referencia quem.
+
+    Label Grid.Row="0"  Grid.Column="0"  Text="Azera V6"  
+    nessa linha de codigo linha 0 e coluna 0 
+    
+    VerticalOpitions="Start" - para agrupar e não dar espaçamento alem do normal.
+    ?>
+
+
+    <ListView x:Name="listViewVeiculos" ItemsSource="{Binding Veiculos}">
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                <ViewCell.View>
+                    <StackLayout Orientation="Horizontal">
+                            
+                                        <Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
+                            <Label Text="    -    " VerticalTextAlignment="Center"></Label>
+                            <Label Text="{Binding Preco}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+                                    
+                    </StackLayout>
+                </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+            
+        </ListView.ItemTemplate>
+        
+        
+    </ListView>
+
+
+
+</ContentPage>
+
+
