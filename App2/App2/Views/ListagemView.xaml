@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Test Drive"
              xmlns:local="clr-namespace:App2"
-             x:Class="App2.MainPage">
+             x:Class="App2.Views.ListagemView">
 
     <?StackLayout - tem a função de empilhar as labels uma encima da outra, no caso se não colocarmos     
     só ira mostrar a ultima label.
@@ -37,6 +38,7 @@
 
         <ListView.ItemTemplate>
             <DataTemplate>
+                
                 <ViewCell>
                 <ViewCell.View>
                     <StackLayout Orientation="Horizontal" >

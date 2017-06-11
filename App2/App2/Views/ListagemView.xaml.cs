@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace App2
+namespace App2.Views
 {
 
    public class Veiculo{
@@ -13,14 +17,14 @@ namespace App2
         }
     }
 
-    public partial class MainPage : ContentPage
+    public partial class ListagemView : ContentPage
 	{
         public System.Collections.Generic.List<Veiculo> Veiculos { get; set; }
 
 
-        public MainPage()
+        public ListagemView()
 		{
-			InitializeComponent();
+            InitializeComponent();
 
             this.Veiculos = new System.Collections.Generic.List<Veiculo>
             {
@@ -42,8 +46,7 @@ namespace App2
             // coloca a variavel () e tambem converte o objeto para veiculo colocando entre parenteses.
             //e. é o objeto que ja vem instanciado.
 
-            DisplayAlert("Test Drive", string.Format("você tocou no modelo '{0}', que custa {1}", veiculo.Nome, veiculo.PrecoFormatado), "ok");
-            //aqui faz o alerta e tras a mensagem quando clicar {0} é o marcador do list tras o nome   {1} tras o preco
+            Navigation.PushAsync(new DetalheView(veiculo));
         }
     }
 

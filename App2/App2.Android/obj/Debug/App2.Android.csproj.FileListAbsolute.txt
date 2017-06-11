@@ -22,7 +22,6 @@ c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.An
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Android.csprojResolveAssemblyReference.cache
-c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Droid.MainPage.xaml.g.cs
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Droid.App.xaml.g.cs
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Android.dll
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Android.pdb
@@ -43,3 +42,6 @@ c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.An
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 c:\users\willi\onedrive\documentos\visual studio 2017\Projects\App2\App2\App2.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\willi\OneDrive\Documentos\Visual Studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Droid.Views.ListagemView.xaml.g.cs
+C:\Users\willi\OneDrive\Documentos\Visual Studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Droid.Views.DetalheView.xaml.g.cs
+C:\Users\willi\OneDrive\Documentos\Visual Studio 2017\Projects\App2\App2\App2.Android\obj\Debug\App2.Droid.Views.AgendamentoView.xaml.g.cs

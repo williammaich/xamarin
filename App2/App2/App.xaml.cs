@@ -1,4 +1,5 @@
 ﻿
+using App2.Views;
 using Xamarin.Forms;
 
 namespace App2
@@ -9,7 +10,7 @@ namespace App2
 		{
 			InitializeComponent();
 
-			MainPage = new App2.MainPage();
+			MainPage =new NavigationPage( new ListagemView());
 		}
 
 		protected override void OnStart ()

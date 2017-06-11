@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace App2 {
+namespace App2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\willi\\OneDrive\\Documentos\\Visual Studio 2017\\Projects\\App2\\App2\\App2\\Mai" +
-        "nPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\willi\\OneDrive\\Documentos\\Visual Studio 2017\\Projects\\App2\\App2\\App2\\Vie" +
+        "ws\\DetalheView.xaml")]
+    public partial class DetalheView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView listViewVeiculos;
+        private global::Xamarin.Forms.Button buttonProximo;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            listViewVeiculos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listViewVeiculos");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DetalheView));
+            buttonProximo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "buttonProximo");
         }
     }
 }
