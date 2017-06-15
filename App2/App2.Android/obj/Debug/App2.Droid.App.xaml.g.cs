@@ -11,7 +11,7 @@
 namespace App2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\willi\\onedrive\\documentos\\visual studio 2017\\Projects\\App2\\App2\\App2\\App" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\willi\\OneDrive\\Documentos\\Visual Studio 2017\\Projects\\App2\\App2\\App2\\App" +
         ".xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
