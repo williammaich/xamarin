@@ -63,7 +63,13 @@ namespace App2.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Agendamento", "Nome: " + Nome, "OK");
+            DisplayAlert("Agendamento", string.Format(
+                @"Nome: {0}
+                  Forne: {1}
+                   E-Mail: {2}
+                    Data Agendamento: {3}
+                     Hora Agendamento: {4}",Nome, Fone, Email, DataAgendamento.ToString("dd/MM/yyyy"),HoraAgendamento),
+                     "OK");
         }
     }
 }
